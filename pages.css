@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 20px;
+    background-color: white;
+    font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.card {
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 10px 10px 0px #D9D9D9;
+    margin-bottom: 1rem;
+    border: 1px solid #D9D9D9;
+}
+
+.container {
+    padding: 1rem;
+}
+
+.card-title {
+    background-color: #00c176;
+    animation: card-title-bg-color 10s ease infinite;
+    transition: all 0.5s ease;
+    
+}
+
+.card-title:active {
+  box-shadow: 0 0 0  #D9D9D9;
+  transition: all 0.5s ease;
+}
+
+.pomelo-button {
+    color: #f7f7f7;
+    font-size: 1.2rem;
+    animation: title-in 1s ease 1;
+}
+
+.pemolo-button-description {
+    font-size: 0.8rem;
+    color: #ffffff;
+    animation: title-in 1s ease 1;
+}
+
+@keyframes title-in {
+    from {
+        transform: translateX(-2rem);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes card-title-bg-color {
+    0% {
+        background-color: #e86767
+    }
+    10% {
+        background-color: #ee9a4f
+    }
+    20% {
+        background-color: #e8ea5b
+    }
+    30% {
+        background-color: #00c176;
+    }
+    40% {
+        background-color: #64baf7;
+    }
+    50% {
+        background-color: #5ddbce;
+    }
+    70% {
+        background-color: #8174fd;
+    }
+    80% {
+        background-color: #fd6bea;
+    }
+    90% {
+        background-color: #b4b4b4;
+    }
+    100% {
+        background-color: #ea5c8b;
+    }
+}

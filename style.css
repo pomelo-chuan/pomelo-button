@@ -1,0 +1,247 @@
+/* ===the size of the button=== */
+
+.full {
+    width: 100%;
+    padding: 10px;
+}
+
+.small {
+    font-size: 12px;
+    padding: 5px;
+}
+
+.normal {
+    font-size: 16px;
+    padding: 5px;
+}
+
+.large {
+    font-size: 20px;
+    padding: 8px;
+}
+
+
+/* ===format the button style=== */
+
+.button, button {
+    min-width: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    outline: none;
+    color: #616161;
+    background-color: #F8F8F8;
+    padding: 10px;
+    margin: 6px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    -webkit-appearance: none;
+}
+
+.button:hover, button:hover {
+    background-color: #f1f1f1;
+    transition: all 0.2s ease;
+}
+
+.button:focus, button:focus {
+    background-color: #f1f1f1;
+    transition: all 0.2s ease;
+}
+
+.button:active, button:active {
+    background-color: #e3e3e3;
+    transition: all 0.2s ease;
+}
+
+
+/* ===the color of the button=== */
+
+.warning {
+    border: none;
+    color: white;
+    background-color: #C29765;
+    transition: all 0.2s ease;
+}
+
+.warning:hover {
+    color: white;
+    background-color: #c1a37f;
+    transition: all 0.2s ease;
+}
+
+.warning:focus {
+    color: white;
+    background-color: #c19c71;
+    transition: all 0.2s ease;
+}
+
+.warning:active {
+    color: white;
+    background-color: #c19058;
+    transition: all 0.2s ease;
+}
+
+
+/* ===dangerous=== */
+
+.dangerous {
+    border: none;
+    color: white;
+    background-color: #DC5A56;
+    transition: all 0.2s ease;
+}
+
+.dangerous:hover {
+    color: white;
+    background-color: #d87572;
+    transition: all 0.2s ease;
+}
+
+.dangerous:focus {
+    color: white;
+    background-color: #d87572;
+    transition: all 0.2s ease;
+}
+
+.dangerous:active {
+    color: white;
+    background-color: #CF524C;
+    transition: all 0.2s ease;
+}
+
+
+/* ===info=== */
+
+.info {
+    border: none;
+    color: white;
+    background-color: #6B90E4;
+    transition: all 0.2s ease;
+}
+
+.info:hover {
+    color: white;
+    background-color: #708fcf;
+    transition: all 0.2s ease;
+}
+
+.info:focus {
+    color: white;
+    background-color: #708fcf;
+    transition: all 0.2s ease;
+}
+
+.info:active {
+    color: white;
+    background-color: #5B81D1;
+    transition: all 0.2s ease;
+}
+
+
+/* ===success=== */
+
+.success {
+    border: none;
+    color: white;
+    background-color: #4dd96e;
+    transition: all 0.2s ease;
+}
+
+.success:hover {
+    color: white;
+    background-color: #44c261;
+    transition: all 0.2s ease;
+}
+
+.success:focus {
+    color: white;
+    background-color: #44c261;
+    transition: all 0.2s ease;
+}
+
+.success:active {
+    color: white;
+    background-color: #3fb45a;
+    transition: all 0.2s ease;
+}
+
+
+/* ===button-3d=== */
+
+.button-3d {
+    box-shadow: 0px 5px 0px #E6E6E6;
+    transition: all 0.2s ease;
+}
+
+.button-3d:active {
+    box-shadow: 0px 0px 0px #E6E6E6;
+    transition: all 0.2s ease;
+}
+
+.button-3d.info {
+    box-shadow: 0px 5px 0px #5B81D1;
+    transition: all 0.2s ease;
+}
+
+.button-3d.info:active {
+    box-shadow: 0px 0px 0px #5B81D1;
+    transition: all 0.2s ease;
+}
+
+.button-3d.warning {
+    box-shadow: 0px 5px 0px #c19058;
+    transition: all 0.2s ease;
+}
+
+.button-3d.warning:active {
+    box-shadow: 0px 0px 0px #c19058;
+    transition: all 0.2s ease;
+}
+
+.button-3d.dangerous {
+    box-shadow: 0px 5px 0px #CF524C;
+    transition: all 0.2s ease;
+}
+
+.button-3d.dangerous:active {
+    box-shadow: 0px 0px 0px #CF524C;
+    transition: all 0.2s ease;
+}
+
+.button-3d.success {
+    box-shadow: 0px 5px 0px #3fb45a;
+    transition: all 0.2s ease;
+}
+
+.button-3d.success:active {
+    box-shadow: 0px 0px 0px #3fb45a;
+    transition: all 0.2s ease;
+}
+
+/* ===line=== */
+
+.line {
+    color: #6B90E4;
+    border: 2px solid #6B90E4;
+    background: none;
+}
+
+.line:hover {
+    color: #6B90E4;
+    background: none;
+    transition: all 0.2s ease;
+}
+
+.line:focus {
+    color: #6B90E4;
+    background: none;
+    transition: all 0.2s ease;
+}
+
+.line:active {
+    color: #6B90E4;
+    background: none;
+    transition: all 0.2s ease;
+}
